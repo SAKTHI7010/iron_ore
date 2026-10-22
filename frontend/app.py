@@ -36,6 +36,10 @@ CSS = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
 html, body, [class*="css"], .stMarkdown, button, input, label { font-family: 'Outfit', sans-serif !important; }
+.stApp, .stApp p, .stApp li, .stApp label, .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5,
+[data-testid="stWidgetLabel"] p, [data-testid="stMarkdownContainer"] p, [data-testid="stCaptionContainer"],
+[data-testid="stMetricLabel"] p, [data-testid="stMetricValue"], [data-testid="stSidebar"] * { color: #e2e8f0; }
+.stApp header[data-testid="stHeader"] { background: transparent; }
 .stApp { background: radial-gradient(1200px 600px at 10% -10%, rgba(45,212,191,.12), transparent 60%),
                      radial-gradient(900px 500px at 100% 0%, rgba(245,158,11,.10), transparent 55%), #0b1220; }
 section[data-testid="stSidebar"] { background: linear-gradient(180deg,#0f1a2e 0%,#0b1220 100%);
